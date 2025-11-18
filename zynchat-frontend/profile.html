@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZynChat · Profile</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <div class="glow-overlay"></div>
+  <div class="app-shell">
+    <div class="app-frame">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">Z</div>
+          <div>
+            <h1>ZynChat</h1>
+            <span>Instant. Secure. Global.</span>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search chats" />
+        </div>
+        <div class="chat-list">
+          <div class="chat-item active">Creators Guild</div>
+          <div class="chat-item">Orbit Control</div>
+          <div class="chat-item">Zenith Ops</div>
+        </div>
+      </aside>
+      <main class="main-pane">
+        <header class="main-header">
+          <h2>Profile</h2>
+          <div class="actions">
+            <a class="btn btn-outline" href="chat.html">Back to Chat</a>
+          </div>
+        </header>
+        <section class="profile-card">
+          <form>
+            <div class="avatar-preview">🌐</div>
+            <div class="form-actions">
+              <button class="btn btn-outline" type="button">Change Avatar</button>
+            </div>
+            <div class="input-group">
+              <label for="display-name">Display Name</label>
+              <input id="display-name" type="text" placeholder="Astra Vega" />
+            </div>
+            <div class="input-group">
+              <label for="username">Username</label>
+              <input id="username" type="text" placeholder="@astravega" />
+            </div>
+            <div class="input-group">
+              <label for="bio">Bio</label>
+              <textarea id="bio" rows="3" placeholder="Signal architect, obsessed with precision messaging."></textarea>
+            </div>
+            <div class="input-group">
+              <label for="timezone">Time Zone</label>
+              <select id="timezone">
+                <option value="UTC">UTC</option>
+                <option value="PST">Pacific (PST)</option>
+                <option value="EST">Eastern (EST)</option>
+                <option value="CET">Central Europe (CET)</option>
+                <option value="IST">India (IST)</option>
+              </select>
+            </div>
+            <div class="profile-actions">
+              <button type="submit" class="btn btn-primary">Save Profile</button>
+              <button type="reset" class="btn btn-outline">Discard</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZynChat · Chat</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <div class="glow-overlay"></div>
+  <div class="app-shell">
+    <div class="app-frame">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">Z</div>
+          <div>
+            <h1>ZynChat</h1>
+            <span>Instant. Secure. Global.</span>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search chats" />
+        </div>
+        <div class="chat-list">
+          <div class="chat-item active">Design Council</div>
+          <div class="chat-item">Hyperloop Ops</div>
+          <div class="chat-item">Signal Boost</div>
+        </div>
+      </aside>
+      <main class="main-pane">
+        <header class="main-header">
+          <h2>Chat Experience</h2>
+          <div class="actions">
+            <a class="btn btn-outline" href="profile.html">Profile</a>
+            <a class="btn btn-primary" href="settings.html">Settings</a>
+          </div>
+        </header>
+        <section class="chat-window">
+          <div class="chat-top">
+            <div>
+              <h3>Neon Launch Team</h3>
+              <span class="text-muted">23 members online</span>
+            </div>
+            <div class="call-actions">
+              <button class="btn btn-outline">📞</button>
+              <button class="btn btn-primary">🎥</button>
+            </div>
+          </div>
+          <div class="message-list">
+            <div class="message them">Morning! The neon particle field is stunning today.</div>
+            <div class="message me">Right? ZynChat's glow keeps focus without distractions.</div>
+            <div class="message them">Sending over the updated keynote in 5.</div>
+            <div class="message me">Perfect, prepping the global broadcast.</div>
+          </div>
+          <div class="chat-input">
+            <button title="Attach">📎</button>
+            <input type="text" placeholder="Type a luminous message" />
+            <button title="Send">➤</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
