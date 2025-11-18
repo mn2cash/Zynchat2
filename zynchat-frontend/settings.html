@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZynChat · Settings</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <div class="glow-overlay"></div>
+  <div class="app-shell">
+    <div class="app-frame">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">Z</div>
+          <div>
+            <h1>ZynChat</h1>
+            <span>Instant. Secure. Global.</span>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search chats" />
+        </div>
+        <div class="chat-list">
+          <div class="chat-item active">Photon Ops</div>
+          <div class="chat-item">Halo Support</div>
+          <div class="chat-item">Nova Partners</div>
+        </div>
+      </aside>
+      <main class="main-pane">
+        <header class="main-header">
+          <h2>Settings</h2>
+          <div class="actions">
+            <a class="btn btn-outline" href="chat.html">Back to Chat</a>
+          </div>
+        </header>
+        <section class="settings-card">
+          <form>
+            <div class="settings-options">
+              <div class="setting-row">
+                <div>
+                  <h4>Theme</h4>
+                  <p class="text-muted">Switch between neon, dusk, and deep night.</p>
+                </div>
+                <select>
+                  <option>Neon (default)</option>
+                  <option>Dusk</option>
+                  <option>Deep Night</option>
+                </select>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <h4>Message Density</h4>
+                  <p class="text-muted">Choose how compact chat items should be.</p>
+                </div>
+                <select>
+                  <option>Comfortable</option>
+                  <option>Compact</option>
+                  <option>Spacious</option>
+                </select>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <h4>Notifications</h4>
+                  <p class="text-muted">Toggle push + email updates.</p>
+                </div>
+                <label class="toggle">
+                  <input type="checkbox" checked />
+                  <span>Enabled</span>
+                </label>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <h4>Security Mode</h4>
+                  <p class="text-muted">Elevate safeguards when traveling.</p>
+                </div>
+                <button type="button">Ultra Shield</button>
+              </div>
+            </div>
+            <div class="settings-actions">
+              <button type="submit" class="btn btn-primary">Save Preferences</button>
+              <button type="reset" class="btn btn-outline">Reset</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
